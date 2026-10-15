@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36BC15967A288C9B0AD7921E /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43954B47A00CD2025611463 /* MemoryItem.swift */; };
+		F700CABF11C97B887D976B53 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371A28DF63182F89F1E05DF /* LocationManager.swift */; };
+		D7C8AEC44A40A699B34BF512 /* MemoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7C107597DD233B7626B92 /* MemoryStore.swift */; };
+		12CC63445A62B1D9255A703A /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06932578F4403036C19154A9 /* HomeScreenViewModel.swift */; };
+		CA849758058FE2BC1AB715CE /* Color+BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C07BC478AE23E84032221 /* Color+BrandColors.swift */; };
+		04965A0A938C64169414D21E /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40052F5218F77D95434503 /* UIImage+Resize.swift */; };
+		B72B57845E9DC363B4008D1C /* MemoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1623F01669942FBD65BD0 /* MemoryCard.swift */; };
+		68B850B36995FAF1CD85BEFB /* DescriptionContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51083EC0367B461896E65964 /* DescriptionContainerView.swift */; };
+		10183B66CA176B5F41EE669A /* ImageContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24265590FB858516E2CE706 /* ImageContainerView.swift */; };
+		D61960E3411875B5CBD0BA92 /* PressableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB2DD4905B8B52BC2D2307 /* PressableButtonStyle.swift */; };
+		C1669B3732E227D798BAD61A /* LumeIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF4FB92E77A27BB0B7CAD7 /* LumeIntroView.swift */; };
+		B9DB66FD7F183CFF2319F8B0 /* UnveilStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26720728481A82F359EEF29 /* UnveilStoryView.swift */; };
+		A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAA59D477A91E75E0468AF /* Assets.xcassets */; };
+		CDE2A020C7A36A79F331BAD0 /* chosen-stand.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2640F2A872411199349E2D73 /* chosen-stand.usdz */; };
+		9D8CAAEE43DB9054E867D372 /* Komorebi-PersonalUse.otf in Resources */ = {isa = PBXBuildFile; fileRef = 677AE13D92C094AD3835014F /* Komorebi-PersonalUse.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B43954B47A00CD2025611463 /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryItem.swift; path = Models/MemoryItem.swift; sourceTree = "<group>"; };
+		1371A28DF63182F89F1E05DF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Services/LocationManager.swift; sourceTree = "<group>"; };
+		FEB7C107597DD233B7626B92 /* MemoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryStore.swift; path = Services/MemoryStore.swift; sourceTree = "<group>"; };
+		06932578F4403036C19154A9 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenViewModel.swift; path = ViewModels/HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		4C0C07BC478AE23E84032221 /* Color+BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+BrandColors.swift"; path = "Helpers/Color+BrandColors.swift"; sourceTree = "<group>"; };
+		1D40052F5218F77D95434503 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Resize.swift"; path = "Helpers/UIImage+Resize.swift"; sourceTree = "<group>"; };
+		4CB1623F01669942FBD65BD0 /* MemoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryCard.swift; path = Views/Components/MemoryCard.swift; sourceTree = "<group>"; };
+		51083EC0367B461896E65964 /* DescriptionContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DescriptionContainerView.swift; path = Views/Components/DescriptionContainerView.swift; sourceTree = "<group>"; };
+		B24265590FB858516E2CE706 /* ImageContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageContainerView.swift; path = Views/Components/ImageContainerView.swift; sourceTree = "<group>"; };
+		8FBB2DD4905B8B52BC2D2307 /* PressableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PressableButtonStyle.swift; path = Views/Modifiers/PressableButtonStyle.swift; sourceTree = "<group>"; };
+		AFDF4FB92E77A27BB0B7CAD7 /* LumeIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LumeIntroView.swift; path = Views/Screens/LumeIntroView.swift; sourceTree = "<group>"; };
+		A26720728481A82F359EEF29 /* UnveilStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnveilStoryView.swift; path = Views/Screens/UnveilStoryView.swift; sourceTree = "<group>"; };
+		59DAA59D477A91E75E0468AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
+		2640F2A872411199349E2D73 /* chosen-stand.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "chosen-stand.usdz"; path = "Resources/chosen-stand.usdz"; sourceTree = "<group>"; };
+		677AE13D92C094AD3835014F /* Komorebi-PersonalUse.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Komorebi-PersonalUse.otf"; path = "Resources/Komorebi-PersonalUse.otf"; sourceTree = "<group>"; };
+		06701427634A73ED3EFF54C2 /* LUMEVision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LUMEVision-Info.plist"; sourceTree = "<group>"; };
+		EF0182DF85A7CD0319333F24 /* LUMEVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUMEVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4ED360BAAD763DF53DF4A8B5 /* LUMEVision */ = {isa = PBXFileSystemSynchronizedRootGroup; path = LUMEVision; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1439ACCFCEB73E6F9981A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4FDD7B635240BD562EBB49 = {
+			isa = PBXGroup;
+			children = (
+				4ED360BAAD763DF53DF4A8B5 /* LUMEVision */,
+				CFD1316031809D8962FA9AB5 /* Shared (iPad app) */,
+				06701427634A73ED3EFF54C2 /* LUMEVision-Info.plist */,
+				B23D89B2D2DF3745A003AEB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD1316031809D8962FA9AB5 /* Shared (iPad app) */ = {
+			isa = PBXGroup;
+			children = (
+				B43954B47A00CD2025611463 /* MemoryItem.swift */,
+				1371A28DF63182F89F1E05DF /* LocationManager.swift */,
+				FEB7C107597DD233B7626B92 /* MemoryStore.swift */,
+				06932578F4403036C19154A9 /* HomeScreenViewModel.swift */,
+				4C0C07BC478AE23E84032221 /* Color+BrandColors.swift */,
+				1D40052F5218F77D95434503 /* UIImage+Resize.swift */,
+				4CB1623F01669942FBD65BD0 /* MemoryCard.swift */,
+				51083EC0367B461896E65964 /* DescriptionContainerView.swift */,
+				B24265590FB858516E2CE706 /* ImageContainerView.swift */,
+				8FBB2DD4905B8B52BC2D2307 /* PressableButtonStyle.swift */,
+				AFDF4FB92E77A27BB0B7CAD7 /* LumeIntroView.swift */,
+				A26720728481A82F359EEF29 /* UnveilStoryView.swift */,
+				59DAA59D477A91E75E0468AF /* Assets.xcassets */,
+				2640F2A872411199349E2D73 /* chosen-stand.usdz */,
+				677AE13D92C094AD3835014F /* Komorebi-PersonalUse.otf */,
+			);
+			name = "Shared (iPad app)";
+			path = "../LUME-1.swiftpm";
+			sourceTree = "<group>";
+		};
+		B23D89B2D2DF3745A003AEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0182DF85A7CD0319333F24 /* LUMEVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* LUMEVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7946D1FECD782CD1D1632739 /* Build configuration list for PBXNativeTarget "LUMEVision" */;
+			buildPhases = (
+				3B7DFB0747829707F437ED7F /* Sources */,
+				DE1439ACCFCEB73E6F9981A5 /* Frameworks */,
+				3519654520012F56AC9A0E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4ED360BAAD763DF53DF4A8B5 /* LUMEVision */,
+			);
+			name = LUMEVision;
+			packageProductDependencies = (
+			);
+			productName = LUMEVision;
+			productReference = EF0182DF85A7CD0319333F24 /* LUMEVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = DA005C88CE6BD7CF5F607F0E /* Build configuration list for PBXProject "LUME-Vision" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C4FDD7B635240BD562EBB49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B23D89B2D2DF3745A003AEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* LUMEVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3519654520012F56AC9A0E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6070B9CF28E71610AA267AE /* Assets.xcassets in Resources */,
+				CDE2A020C7A36A79F331BAD0 /* chosen-stand.usdz in Resources */,
+				9D8CAAEE43DB9054E867D372 /* Komorebi-PersonalUse.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7DFB0747829707F437ED7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BC15967A288C9B0AD7921E /* MemoryItem.swift in Sources */,
+				F700CABF11C97B887D976B53 /* LocationManager.swift in Sources */,
+				D7C8AEC44A40A699B34BF512 /* MemoryStore.swift in Sources */,
+				12CC63445A62B1D9255A703A /* HomeScreenViewModel.swift in Sources */,
+				CA849758058FE2BC1AB715CE /* Color+BrandColors.swift in Sources */,
+				04965A0A938C64169414D21E /* UIImage+Resize.swift in Sources */,
+				B72B57845E9DC363B4008D1C /* MemoryCard.swift in Sources */,
+				68B850B36995FAF1CD85BEFB /* DescriptionContainerView.swift in Sources */,
+				10183B66CA176B5F41EE669A /* ImageContainerView.swift in Sources */,
+				D61960E3411875B5CBD0BA92 /* PressableButtonStyle.swift in Sources */,
+				C1669B3732E227D798BAD61A /* LumeIntroView.swift in Sources */,
+				B9DB66FD7F183CFF2319F8B0 /* UnveilStoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		963E5652CFCAC549D359FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4D4AC1BC22434DA9B536571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1A9E10FAAD0A97FB97BCEC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = VisionAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AZ63MW8MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LUMEVision-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LUME;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mnv.LUME.Vision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		B79C83306C8ABF7373B5E45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = VisionAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AZ63MW8MQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LUMEVision-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LUME;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mnv.LUME.Vision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA005C88CE6BD7CF5F607F0E /* Build configuration list for PBXProject "LUME-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963E5652CFCAC549D359FB70 /* Debug */,
+				4D4AC1BC22434DA9B536571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7946D1FECD782CD1D1632739 /* Build configuration list for PBXNativeTarget "LUMEVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9E10FAAD0A97FB97BCEC18 /* Debug */,
+				B79C83306C8ABF7373B5E45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

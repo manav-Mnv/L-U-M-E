@@ -93,6 +93,37 @@ This project is built using native Apple frameworks, prioritizing a clean MVVM s
 - **Podium gestures:** drag to move, pinch to resize, twist to rotate. Long-press a carousel card to remove its podium; ↺ resets the room.
 - **Photo markers:** pointing the iPad at a printed memory photo shows a miniature podium on it.
 
+## Apple Vision Pro (visionOS) — `visionos` branch
+
+A separate visionOS app lives in **`LUME-Vision/`**. It shares the iPad app's models, saving, location code, placard designs, podium model, font and images (referenced from `LUME-1.swiftpm`, not copied), so a fix in one helps both. App Playgrounds can't target visionOS, so this is a regular Xcode project — **the iPad `.swiftpm` stays the Swift Student Challenge submission.**
+
+### Run it
+1. Open **`LUME-Vision/LUME-Vision.xcodeproj`** in Xcode.
+2. Pick **Apple Vision Pro** (simulator) or your Vision Pro as the run destination, choose your team under *Signing & Capabilities* if asked, and press **⌘R**.
+3. Allow **Location** when asked (used for map pins and GPS placement).
+
+### What's inside
+- **Journal window** — the same sidebar + editor as the iPad, in visionOS glass. Photos come from the Photos library (apps can't use the Vision Pro cameras). Look at a spot on the map and pinch to pin a memory.
+- **Tabletop Museum** (volume) — a miniature rotunda of memory podiums on a turntable. Drag the table to spin it; pinch a podium (or a card in the ornament) to bring it to the front. Works in the simulator.
+- **Walk Through Museum** (immersive space) — life-size podiums standing on your real floor.
+  - **Set North:** Vision Pro has no compass, so face north (e.g. with the Compass app on your iPhone) and pinch *Set North*. GPS-pinned memories then appear in the real direction of where they happened, with captions like *“1.2 km away · NE”*.
+  - **Place the rest:** pick a memory in the floating panel, look at the floor and pinch.
+  - **Gestures:** pinch-and-drag to move a podium, two-hand twist to turn it, two-hand pinch to resize it, pinch a podium for its story card.
+
+```text
+📂 LUME-Vision
+ ├── LUME-Vision.xcodeproj
+ ├── LUMEVision-Info.plist (scenes, location text, font)
+ └── 📂 LUMEVision
+      ├── LUMEVisionApp.swift (journal window, tabletop volume, immersive space)
+      ├── MuseumSession.swift (shared museum state)
+      ├── 📂 Journal (JournalRootView, JournalView, VisionMemoryEditor, MuseumOrnament)
+      ├── 📂 Museum (PodiumFactory, GeoPlacement, Tabletop…, ImmersiveMuseum…, MemoryInfoCard)
+      └── VisionAssets.xcassets (layered visionOS app icon)
+```
+
+> Real floor placement and north calibration need a physical Vision Pro; the simulator shows the windows, the tabletop museum and the immersive space with podiums placed by pinching.
+
 ## App Audit — what was fixed
 
 All items from `wwdc_audit_report.md.resolved` have been addressed:

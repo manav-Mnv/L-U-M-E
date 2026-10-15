@@ -35,7 +35,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         authorizationStatus = manager.authorizationStatus
-        if manager.authorizationStatus == .authorizedWhenInUse || manager.authorizationStatus == .authorizedAlways {
+        // Any granted status (written this way because `.authorizedAlways` doesn't exist on visionOS).
+        if authorizationStatus != .notDetermined && !isDenied {
             manager.startUpdatingLocation()
         }
     }
