@@ -85,3 +85,9 @@ iOSInjectionProject/
 
 # Mac file system
 .DS_Store
+
+# macOS AppleDouble metadata & SwiftPM build output
+._*
+.DS_Store
+.build/
+**/.swiftpm/xcode/
