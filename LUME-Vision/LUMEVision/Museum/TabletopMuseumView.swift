@@ -46,7 +46,8 @@ struct TabletopMuseumView: View {
         .onChange(of: museum.focusedMemoryID) { _, id in
             if let id { model.select(id) }
         }
-        .ornament(attachmentAnchor: .scene(.bottom), contentAlignment: .top) {
+        // Anchored to the front edge so the base disc never hides the panel.
+        .ornament(attachmentAnchor: .scene(.bottomFront), contentAlignment: .top) {
             TabletopOrnament(model: model)
                 .padding(.top, 24)
         }

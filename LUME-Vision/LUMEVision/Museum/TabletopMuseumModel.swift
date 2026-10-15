@@ -29,7 +29,8 @@ final class TabletopMuseumModel {
     init() {
         let base = ModelEntity(
             mesh: .generateCylinder(height: 0.024, radius: baseRadius),
-            materials: [SimpleMaterial(color: UIColor(red: 0.1, green: 0.1, blue: 0.18, alpha: 1), roughness: 0.25, isMetallic: true)]
+            // Matte, so it reads as a solid pedestal instead of mirroring the room.
+            materials: [SimpleMaterial(color: UIColor(red: 0.14, green: 0.14, blue: 0.24, alpha: 1), roughness: 0.85, isMetallic: false)]
         )
         base.position.y = baseTop - 0.012
         // The base itself is grabbable, so a drag anywhere on the table spins it.
