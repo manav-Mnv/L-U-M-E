@@ -8,6 +8,8 @@
 
 <h4 align="center">An immersive, spatial-computing journal built for the <strong>WWDC Swift Student Challenge</strong>.</h4>
 
+<p align="center">📖 <strong>New to the code?</strong> Read <a href="HOW_IT_WORKS.md"><strong>How LUME Works</strong></a> — every technology used on iPad and Apple Vision Pro, explained in plain words.</p>
+
 <div align="center">
 
 [About The Project](#about-the-project) • [The Experience](#the-experience) • [Technical Architecture](#technical-architecture) • [App Audit & Analysis](#app-audit--analysis) • [How To Run](#how-to-run) • [Acknowledgements](#acknowledgements)
