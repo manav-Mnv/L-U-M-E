@@ -8,6 +8,12 @@
 
 <h4 align="center">An immersive, spatial-computing journal built for the <strong>WWDC Swift Student Challenge</strong>.</h4>
 
+<div align="center">
+
+![Status](https://img.shields.io/badge/status-SSC%20submission-F05138?style=flat-square)
+
+</div>
+
 <p align="center">📖 <strong>New to the code?</strong> Read <a href="HOW_IT_WORKS.md"><strong>How LUME Works</strong></a> — every technology used on iPad and Apple Vision Pro, explained in plain words.</p>
 
 <div align="center">
